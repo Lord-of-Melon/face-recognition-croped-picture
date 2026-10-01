@@ -8,7 +8,6 @@ Disini gw pake React .TSX bukan .JSX ga banyak perbedaannya sama yang .JSX, Tail
 ---
 ## Flow App
 ```mermaid
-graph TD
 A[Upload Gambar] --> B[Gambar Disimpan di DB]
 B --> C[Model Mengambil Gambar dari DB]
 C --> D[Model mengolah Gambar]
