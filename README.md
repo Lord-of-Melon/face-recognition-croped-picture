@@ -25,3 +25,7 @@ http://localhost:5173/
 ```
 # Lainnya
 Download bisa di hilangkan kalo ga mau ribet
+
+## Hal yang Menurutku kurang dan perlu di perbaiki atau ditambahkan
+* gw lupa nambahin pagination di bagian hasil
+* backend dan database termasuk menyambungkan model ke GUI
