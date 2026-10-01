@@ -17,6 +17,9 @@ graph TD
 ```
 ---
 ## How to Use
+
+run di terminal `npm run dev`
+
 ```Bash
 http://localhost:5173/
 ```
