@@ -8,11 +8,12 @@ Disini gw pake React .TSX bukan .JSX ga banyak perbedaannya sama yang .JSX, Tail
 ---
 ## Flow App
 ```mermaid
-A[Upload Gambar] --> B[Gambar Disimpan di DB]
-B --> C[Model Mengambil Gambar dari DB]
-C --> D[Model mengolah Gambar]
-D --> E[Hasil Model Disimpan di DB]
-E --> [Hasil di GUI mengambil hasil crop dari DB]
+graph TD
+    A[Upload Gambar] --> B[Gambar Disimpan di DB]
+    B --> C[Model Mengambil Gambar dari DB]
+    C --> D[Model Mengolah Gambar]
+    D --> E[Hasil Model Disimpan di DB]
+    E --> F[GUI Mengambil Hasil Crop dari DB]
 ```
 ---
 ## How to Use
